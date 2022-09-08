@@ -7,7 +7,7 @@
  * know where to start coding from
  * Return: 0 if the program is an error
  */
-int main(void) /*Main function is used as a program starter identifier*/
+int main(void)/*Main function is used as a program starter identifier*/
 {
 	char Program[] = "\"Programming is like building a multilingual puzzle";
 
