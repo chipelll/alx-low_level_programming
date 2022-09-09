@@ -1,6 +1,6 @@
 #include <unistd.h>
 /**
- *Main - Entry point
+ *main - entry point
  *
  *Return: 1 after printing function
  */
