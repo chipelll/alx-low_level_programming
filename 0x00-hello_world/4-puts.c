@@ -1,18 +1,12 @@
 #include <stdio.h>
 /**
+ *main - entry point
  *
- *  * main - Entry point
- *
- *   *
- *
- *    * Return: Always 0 (Success)
- *
- *     */
+ *Return: 0 after printing function
+ */
 int main(void)
 {
-	char Program[] = "\"Programming is like building a multilingual puzzle";
-
-	puts(Program);
-
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
+
