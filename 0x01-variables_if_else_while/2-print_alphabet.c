@@ -3,7 +3,7 @@
 /**
  *main - entry point
  *
- *Return - 0 if program is successful
+ *Return: 0 after printing function
  */
 int main(void)
 {
