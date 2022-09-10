@@ -8,19 +8,12 @@
 int main(void)
 {	
 int ch;
-int di;
-int ej;
-for (ch = 'a'; ch <= 'd'; ch++)
+for (ch = 'a'; ch <= 'z'; ch++)
 {
-	putchar(ch); 
-}
-for (di = 'f'; di <=  'p'; di++)
-{
-	putchar(di);
-}
-for (ej = 'r'; ej <= 'z'; ej++)
-{
-	putchar(ej);
+	if (ch != 'e' && ch !='q')
+	{
+	putchar(ch);
+	}
 }
 putchar('\n'); 
 return (0); 
