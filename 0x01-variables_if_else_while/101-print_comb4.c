@@ -14,7 +14,7 @@ for (i = 0; i <= 7; i++)
 {
 	for (r = i + 1; r <= 8; r++)
 	{
-		for (j = r + 1; j <= 9; j++ )
+		for (j = r + 1; j <= 9; j++)
 		{
 			if (i < r && (r < j || r > j))
 			{
