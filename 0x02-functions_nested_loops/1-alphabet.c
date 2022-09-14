@@ -5,9 +5,9 @@
  *
  * Return: 0 if program is a success
  */
+void print_alphabet(void);       
 int main(void)
 {
-void print_alphabet(void);
 int i;
 for (i = 'a'; i <= 'z'; i++)
 {
