@@ -17,12 +17,12 @@ for (i = 0; i <= 9; i++)
 		x = i * r;
 		if (x > 9)
 		{
-			_putchar(x / 10 + '0');
-			_putchar(x % 10 + '0');
+			_putchar('0' + x / 10);
+			_putchar('0' + x % 10);
 		}
 		else
 		{
-			_putchar(x + '0');
+			_putchar('0' + x / 10);
 		}
 		if (r != 9)
 		{
