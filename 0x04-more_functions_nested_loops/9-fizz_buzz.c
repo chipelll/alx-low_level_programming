@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * #include <stdio.h>
+ * main - Entry point
  *
  * Description: prints numbers from 1 - 100, if the number is a multiple of 3
  * print Fizz, if a multiple of 5 print Buzz and if a multiple of both FizzBuzz
