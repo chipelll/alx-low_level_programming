@@ -19,7 +19,7 @@ int is_prime_number(int n)
 
 	if (((n % 10) % 2 == 0) && ((sum % 3) == 0))
 	{
-		return(0);
+		return (0);
 	}
 	return (1);
 }
