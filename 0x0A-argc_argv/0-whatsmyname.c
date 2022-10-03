@@ -2,8 +2,8 @@
 
 /**
  * main - prints its name
- * @argc - argument count
- * @argv - argument list
+ * @argc: - argument count
+ * @argv: - argument list
  *
  * Return: 1 if success
  */
