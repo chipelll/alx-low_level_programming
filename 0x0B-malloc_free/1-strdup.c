@@ -2,11 +2,13 @@
 #include <stdlib.h>
 #include <stddef.h>
 
+
+int _strlen(char *s);
 /**
  * _strdup - copies a string from a parameter to a pointer
  * @str: string to be copied
  *
- * Return; NULL if str is NULL or if space is insufficient else the pointer
+ * Return: NULL if str is NULL or if space is insufficient else the pointer
  */
 
 char *_strdup(char *str)
@@ -32,8 +34,8 @@ char *_strdup(char *str)
 		i++;
 	}
 
-	ptr[i] = '\0'
-		return (ptr);
+	ptr[i] = '\0';
+	return (ptr);
 }
 
 /**
@@ -45,7 +47,7 @@ char *_strdup(char *str)
 
 int _strlen(char *s)
 {
-	int len - 0;
+	int len = 0;
 
 	while (*(s++) != '\0')
 	{

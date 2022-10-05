@@ -52,7 +52,7 @@ char *str_concat(char *s1, char *s2)
 }
 
 /**
- * _dtrlen - calculates the length of a string
+ * _strlen - calculates the length of a string
  * @s: the string to count
  *
  * Return: the length
