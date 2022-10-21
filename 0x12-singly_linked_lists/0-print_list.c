@@ -5,13 +5,10 @@
 
 
 /**
-
  * print_list - prints all the elements of a linked list
-
  * @h: a pointer to a node
-
+ *
  * Return: the number of nodes
-
  */
 
 

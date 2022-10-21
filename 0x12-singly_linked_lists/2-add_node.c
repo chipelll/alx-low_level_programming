@@ -9,15 +9,11 @@
 
 
 /**
-
  * add_node - adds a new node to the beginnig of a list
-
  * @head: pointer to a node pointer
-
  * @str: string to copy
-
+ *
  * Return: the address of the new element or NULL in case of failure
-
  */
 
 

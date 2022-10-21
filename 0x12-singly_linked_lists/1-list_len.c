@@ -5,13 +5,10 @@
 
 
 /**
-
  * list_len - gets the length of a linked list
-
  * @h: a pointer to the first node of the linked list
-
+ *
  * Return: the number of elements in the list
-
  */
 
 
