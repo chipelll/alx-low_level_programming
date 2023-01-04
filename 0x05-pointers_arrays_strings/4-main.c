@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 
 
@@ -21,8 +22,9 @@ int main(void)
 
 
 	        str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-
+		printf("%s\n", str);
 		    print_rev(str);
+		printf("%s\n", str);
 
 		        return (0);
 

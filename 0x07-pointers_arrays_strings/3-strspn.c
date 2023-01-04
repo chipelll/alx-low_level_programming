@@ -14,16 +14,22 @@ unsigned int count = 0;
 
 int i;
 
+int j;
+
 for (i = 0 ; s[i] != '\0' ; i++)
 {
-	if (straccept(s[i], accept))
+	for (j = 0; accept[j] != '\0'; j++)
 	{
-		count++;
+		if (s == accept[i])
+		{
+			return (1);
+		}
+		else
+		{
+			break;
+		}
 	}
-	else
-	{
-		break;
-	}
+	count++;
 }
 return (count);
 }

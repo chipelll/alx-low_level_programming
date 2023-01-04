@@ -1,67 +1,25 @@
-#include <stdlib.h>
+#include <limits.h>
 
-#include <string.h>
-
-#include <stdio.h>
-
-#include "lists.h"
+#include "main.h"
 
 
 
 /**
-
- * main - check the code
-
  *
-
- * Return: Always 0.
-
- */
+ *  * main - Entry point
+ *
+ *   *
+ *
+ *    * Return: Always 0
+ *
+ *     */
 
 int main(void)
 
 {
 
-    list_t *head;
+	    _printf("%b\n", 98);
 
-    list_t *new;
-
-    list_t hello = {"World", 5, NULL};
-
-    size_t n;
-
-
-
-    head = &hello;
-
-    new = malloc(sizeof(list_t));
-
-    if (new == NULL)
-
-    {
-
-        printf("Error\n");
-
-        return (1);
-
-    }
-
-    new->str = strdup("Hello");
-
-    new->len = 5;
-
-    new->next = head;
-
-    head = new;
-
-    n = list_len(head);
-
-    printf("-> %lu elements\n", n);
-
-    free(new->str);
-
-    free(new);
-
-    return (0);
+	        return (0);
 
 }
